@@ -6,7 +6,7 @@
 
 
 echo("Installing dependencies...")
-sudo apt install libx11-dev debhelper bison check cmake flex ghostscript libbsd-dev libcurl4-openssl-dev libgeoip-dev libltdl-dev libluajit-5.1-dev libncurses5-dev libnet1-dev libpcap-dev libpcre3-dev libssl-dev libgtk-3-dev libgtk2.0-dev compton nitrogen unzip wget surf scrot -y
+sudo apt install git libx11-dev debhelper bison check cmake flex ghostscript libbsd-dev libcurl4-openssl-dev libgeoip-dev libltdl-dev libluajit-5.1-dev libncurses5-dev libnet1-dev libpcap-dev libpcre3-dev libssl-dev libgtk-3-dev libgtk2.0-dev compton nitrogen unzip wget surf scrot -y
 
 git clone https://github.com/G0ldenJ0ker/src.git ~/src/
 

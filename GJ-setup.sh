@@ -15,11 +15,10 @@ echo "Installing dependencies..."
 if [ $var == "1" ];
 then
         sudo apt update
-	sudo apt install git libx11-dev debhelper bison check cmake flex ghostscript libbsd-dev libcurl4-openssl-dev libgeoip-dev libltdl-dev libluajit-5.1-dev libncurses5-dev libnet1-dev libpcap-dev libpcre3-dev libssl-dev libgtk-3-dev libgtk2.0-dev compton nitrogen unzip wget surf scrot -y
+	sudo apt install git libx11-dev debhelper bison check cmake flex ghostscript libbsd-dev libcurl4-openssl-dev libgeoip-dev libltdl-dev libluajit-5.1-dev libncurses5-dev libnet1-dev libpcap-dev libpcre3-dev libssl-dev libgtk-3-dev libgtk2.0-dev compton feh unzip wget surf scrot -y
 
 else [ $var == "2" ];
-        sudo pacman -Syu
-	sudo pacman -S --noconfirm git libx11-dev bison check cmake flex ghostscript libbsd-dev libcurl4-openssl-dev libgeoip-dev libltdl-dev libluajit-5.1-dev libncurses5-dev libnet1-dev libpcap-dev libpcre3-dev libssl-dev libgtk-3-dev libgtk2.0-dev compton nitrogen unzip wget surf scrot -y
+	sudo pacman -Sy --noconfirm git libx11-dev bison check cmake flex ghostscript libbsd-dev libcurl4-openssl-dev libgeoip-dev libltdl-dev libluajit-5.1-dev libncurses5-dev libnet1-dev libpcap-dev libpcre3-dev libssl-dev libgtk-3-dev libgtk2.0-dev compton feh unzip wget surf scrot -y
 
 fi
 
